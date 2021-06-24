@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MathTest</string>
+    <string name="top">+ TOPLAMA İŞLEMİ +</string>
+    <string name="cık">- ÇIKARTMA İŞLEMİ -</string>
+    <string name="carp">× ÇARPMA İŞLEMİ ×</string>
+    <string name="böl">/ BÖLME İŞLEMİ /</string>
+    <string name="kok">√ KÖKLÜ İŞLEMİ √</string>
+    <string name="üs">² ÜS ALMA İŞLEMİ ²</string>
+    <string name="kat">Kategoriler</string>
+    <string name="quizfinish">Test Bitti!</string>
+    <string name="question">Sorular</string>
+    <string name="GİRİS">MATEMATİK TESTİNE BAŞLA !</string>
+    <string name="infoapp">DAHA ZOR MATEMATİK TESTİNİ Görmek İçin TIKLA</string>
+    <string name="share">UYGULAMAYI PAYLAŞMAK İÇİN TIKLA</string>
+    <string name="store">UYGULAMALARIMIZI ZİYARET EDİN</string>
+    <string name="time">SÜRE DOLDU !</string>
+</resources>

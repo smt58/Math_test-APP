@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MathTest</string>
+
+    <string name="top">+ Addition +</string>
+    <string name="cık">- Subtraction -</string>
+    <string name="böl">/ Multiplication /</string>
+    <string name="carp">× Dividing ×</string>
+    <string name="kok">√ Radical Numbers √</string>
+    <string name="üs">² Exponential Numbers ²</string>
+    <string name="kat">Categories</string>
+
+    <string name="quez" translatable="false">"Total Ques: "</string>
+    <string name="quizfinish">Quiz Finished</string>
+    <string name="time">Time is UP ! </string>
+    <string name="question">Question:</string>
+
+    <string name="GİRİS">GO MATH QUİZ!</string>
+
+    GO MATH QUİZ!
+
+    <string name="infoapp">Click for difficult application</string>
+    <string name="share">Click for a share application</string>
+    <string name="store">VISIT OTHER APPLICATIONS PLAY STORE</string>
+
+</resources>

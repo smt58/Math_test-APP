@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spr"
+    tools:context=".Kategori">
+
+    <Button
+        android:id="@+id/üslü"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/oppp"
+        android:text="@string/üs"
+        android:textColor="#F6EFEF"
+        app:layout_constraintBottom_toTopOf="@+id/köklü"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bölme" />
+
+    <Button
+        android:id="@+id/köklü"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="202dp"
+        android:background="@drawable/oppp"
+        android:text="@string/kok"
+        android:textColor="#F6EFEF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/üslü" />
+
+    <Button
+        android:id="@+id/toplama"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/oppp"
+        android:text="@string/top"
+        android:textColor="#F6EFEF"
+        app:layout_constraintBottom_toTopOf="@+id/cıkarma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cıkarma"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/oppp"
+        android:text="@string/cık"
+        android:textColor="#F6EFEF"
+        app:layout_constraintBottom_toTopOf="@+id/carpma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toplama" />
+
+    <Button
+        android:id="@+id/carpma"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/oppp"
+        android:text="@string/carp"
+        android:textColor="#F6EFEF"
+        app:layout_constraintBottom_toTopOf="@+id/bölme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cıkarma" />
+
+    <Button
+        android:id="@+id/bölme"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/oppp"
+        android:text="@string/böl"
+        android:textColor="#F6EFEF"
+        app:layout_constraintBottom_toTopOf="@+id/üslü"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carpma" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/fff"
+        android:text="@string/kat"
+        android:textAlignment="center"
+        android:textColor="#F6EFEF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/toplama"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-1952242653048047/6423252639"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
